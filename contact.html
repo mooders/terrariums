@@ -37,37 +37,47 @@
                     <a class="nav-link" href="care.html">Care</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>          
     <!-- end Navbar -->
 
-    <!-- grid 2 rows 2 columns, top row merged cells, -->
-    <div class="container px-4">
-        <div class="row py-5 gx-4 gy-4">
+    <div class="mx-0">
+        <div class="row p-0 m-0">
+            <div class="col-sm-12 p-0 m-0">
+                <img src="media/ContactBanner.jpg" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row">
             <div class="col-sm-12">
-                <h3 class="display-6">About Us</h3>
+                <h3 class="display-6 p-4">Get In Touch</h3>
             </div>
         </div>
-        <div class="div row gx-4 gy-4">
-            <div class="col-sm-6">
-                <div class="p-4 h-100 border bg-light">
-                    <p>Some About Us text shenanigans.</p>
-                    <p>
-                        Laura completed her training in Terrariums at a secret mountain monastery deep in the Hampshire hills. Where she learned the deadly arts of mossballs and substrate making. Her proficiency with tweezers requires her hands to be registered with the police as lethal weapons. 
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <img src="media/stock/pexels-karolina-grabowska-4752023.jpg" height="100%" width="100%" />
+        <div class="row p-4">
+            <div class="col-sm-12 m-0">
+                <form action="" id="contactForm">
+                    <div class="mb-3 w-50">
+                      <label for="contactEmail" class="form-label">Your Email Address</label>
+                      <input type="email" class="form-control" id="contactEmail">
+                      <div id="emailHelp" class="form-text">We'll <strong>never</strong> share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 w-50">
+                        <label for="contactName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="contactName">
+                    </div>
+                    <div class="mb-3 w-50">
+                        <label for="contactMsg" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="contactMsg" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
-        
     </div>
 
     <!-- Bootstrap Bundle without Popper -->
