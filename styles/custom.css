@@ -8,12 +8,27 @@ h1 {
     color: #cccec1;
 }
 
+strong {
+    /*font-weight: 500 !important;*/
+    color: #506339ed;
+}
+
 .playwrite-gb-s-h4 {
     font-family: "Playwrite GB S", cursive;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: italic;
     color:#FEFAE0
+  } {
+
+}
+
+.playwrite-gb-s-h5 {
+    font-family: "Playwrite GB S", cursive;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+    color:#283618
   }
 
 .home {
@@ -33,3 +48,11 @@ h1 {
 .navbar-logo-centered .navbar-nav .nav-link{
     padding: .5em 1em;
 }
+
+/* Photo attributions 
+Photo by <a href="https://unsplash.com/@nielsenramon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nielsen Ramon</a> on <a href="https://unsplash.com/photos/tilt-shift-lens-photo-of-glass-bowl-okvqMfl78YE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@artandsoil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Art and Soil Bangalore</a> on <a href="https://unsplash.com/photos/clear-drinking-glass-with-water-and-green-plant-M3DMCMViLIw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@keszthelyit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Keszthelyi Timi</a> on <a href="https://unsplash.com/photos/clear-glass-bottle-with-green-plant-IisVMrpwtkk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@artandsoil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Art and Soil Bangalore</a> on <a href="https://unsplash.com/photos/brown-and-white-ceramic-table-decor-6ncPCLOzwU4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+*/
