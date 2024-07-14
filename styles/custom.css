@@ -1,3 +1,9 @@
+@media screen and (max-width: 992px) {
+    img{
+        object-fit: contain;
+    }
+}
+
 body {
     background-image: url('/media/homeBG.jpg');
     background-size: 100%;
@@ -19,9 +25,7 @@ strong {
     font-weight: 200;
     font-style: italic;
     color:#FEFAE0
-  } {
-
-}
+  }
 
 .playwrite-gb-s-h5 {
     font-family: "Playwrite GB S", cursive;
